@@ -1,7 +1,7 @@
 import { Surreal } from 'surrealdb';
 import * as SurrealNodeModule from '@surrealdb/node';
 import { globalProfiler, PerformanceOptimizer } from '../utils/performance-profiler.js';
-import { pipeline } from '@xenova/transformers';
+import { pipeline } from '@huggingface/transformers';
 import { Logger } from '../utils/logger.js';
 import { config } from '../config/config.js';
 
